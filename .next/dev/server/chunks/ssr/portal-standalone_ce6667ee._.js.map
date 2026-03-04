@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/laragon/www/jelantik-web/portal-standalone/src/app/layout.tsx"],"sourcesContent":["import './portal.css';\r\nimport './portal-mobile.css';\r\nimport './portal-nav.css';\r\nimport './globals.css';\r\n\r\nexport default function PortalLayout({\r\n  children,\r\n}: {\r\n  children: React.ReactNode;\r\n}) {\r\n  return (\r\n    <html lang=\"id\">\r\n      <body className=\"min-h-screen bg-[#F8FAFC]\">\r\n        {children}\r\n      </body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;;AAKe,SAAS,aAAa,EACnC,QAAQ,EAGT;IACC,qBACE,sQAAC;QAAK,MAAK;kBACT,cAAA,sQAAC;YAAK,WAAU;sBACb;;;;;;;;;;;AAIT"}},
-    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":["file:///C:/laragon/www/jelantik-web/portal-standalone/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,8IACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
-}
